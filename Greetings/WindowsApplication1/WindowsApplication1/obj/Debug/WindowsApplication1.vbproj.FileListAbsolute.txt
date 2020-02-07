@@ -1,0 +1,11 @@
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Greetings.resources
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\rhayes\In-Class Tutorial\Greetings\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
