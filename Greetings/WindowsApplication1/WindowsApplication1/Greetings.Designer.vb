@@ -22,11 +22,16 @@ Partial Class Greetings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Greetings))
         Me.btnClick = New System.Windows.Forms.Button()
         Me.txtName = New System.Windows.Forms.TextBox()
         Me.lbl1 = New System.Windows.Forms.Label()
         Me.lblName = New System.Windows.Forms.Label()
-        Me.txtOut = New System.Windows.Forms.TextBox()
+        Me.lstOut = New System.Windows.Forms.ListBox()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.picGreeting = New System.Windows.Forms.PictureBox()
+        CType(Me.picGreeting, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnClick
@@ -75,30 +80,72 @@ Partial Class Greetings
         Me.lblName.TabIndex = 3
         Me.lblName.Text = "Enter Your Name "
         '
-        'txtOut
+        'lstOut
         '
-        Me.txtOut.BackColor = System.Drawing.Color.Tomato
-        Me.txtOut.Font = New System.Drawing.Font("MS Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOut.ForeColor = System.Drawing.Color.DarkGreen
-        Me.txtOut.Location = New System.Drawing.Point(195, 294)
-        Me.txtOut.Multiline = True
-        Me.txtOut.Name = "txtOut"
-        Me.txtOut.Size = New System.Drawing.Size(238, 56)
-        Me.txtOut.TabIndex = 4
+        Me.lstOut.BackColor = System.Drawing.Color.Tomato
+        Me.lstOut.Font = New System.Drawing.Font("MS Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lstOut.ForeColor = System.Drawing.Color.DarkGreen
+        Me.lstOut.FormattingEnabled = True
+        Me.lstOut.ItemHeight = 19
+        Me.lstOut.Location = New System.Drawing.Point(195, 281)
+        Me.lstOut.Name = "lstOut"
+        Me.lstOut.Size = New System.Drawing.Size(253, 80)
+        Me.lstOut.TabIndex = 4
+        '
+        'btnClear
+        '
+        Me.btnClear.BackColor = System.Drawing.Color.Tomato
+        Me.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClear.Font = New System.Drawing.Font("MS Gothic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.ForeColor = System.Drawing.Color.DarkGreen
+        Me.btnClear.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btnClear.Location = New System.Drawing.Point(195, 401)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(135, 45)
+        Me.btnClear.TabIndex = 5
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = False
+        '
+        'btnExit
+        '
+        Me.btnExit.BackColor = System.Drawing.Color.Tomato
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.Font = New System.Drawing.Font("MS Gothic", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.ForeColor = System.Drawing.Color.DarkGreen
+        Me.btnExit.Location = New System.Drawing.Point(345, 401)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(138, 45)
+        Me.btnExit.TabIndex = 6
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = False
+        '
+        'picGreeting
+        '
+        Me.picGreeting.Image = CType(resources.GetObject("picGreeting.Image"), System.Drawing.Image)
+        Me.picGreeting.Location = New System.Drawing.Point(575, 160)
+        Me.picGreeting.Name = "picGreeting"
+        Me.picGreeting.Size = New System.Drawing.Size(566, 429)
+        Me.picGreeting.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picGreeting.TabIndex = 7
+        Me.picGreeting.TabStop = False
         '
         'Greetings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Window
-        Me.ClientSize = New System.Drawing.Size(615, 411)
-        Me.Controls.Add(Me.txtOut)
+        Me.ClientSize = New System.Drawing.Size(1166, 832)
+        Me.Controls.Add(Me.picGreeting)
+        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.lstOut)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lbl1)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.btnClick)
         Me.Name = "Greetings"
         Me.Text = "Greetings"
+        CType(Me.picGreeting, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -108,5 +155,8 @@ Partial Class Greetings
     Friend WithEvents txtName As TextBox
     Friend WithEvents lbl1 As Label
     Friend WithEvents lblName As Label
-    Friend WithEvents txtOut As TextBox
+    Friend WithEvents lstOut As ListBox
+    Friend WithEvents btnClear As Button
+    Friend WithEvents btnExit As Button
+    Friend WithEvents picGreeting As PictureBox
 End Class
